@@ -220,4 +220,141 @@ margin-left: 370px;
 .adbuttons:hover{
    background-color: aqua;
 }
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  /* Header */
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+  }
+
+  #logo {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  #list {
+    position: static;
+    margin: 0;
+  }
+
+  #list ul {
+    padding: 0;
+  }
+
+  #list ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  #buttons {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .head-buttons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Segment 2 */
+  .segment2 {
+    flex-direction: column;
+    height: auto;
+    top: 20px;
+    padding: 10px;
+  }
+
+  #box1, #box2 {
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  #box2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-heading {
+    font-size: 1.5em;
+  }
+
+  .body-button {
+    width: 100%;
+  }
+
+  /* Segment 3 */
+  .segment3 {
+    flex-direction: column;
+    height: auto;
+    top: 550px;
+    padding: 10px;
+  }
+
+  #box3, #box4 {
+    position: static;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+
+  .a-buttons {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* Segment 4 */
+  .segment4 {
+    position: static;
+    height: auto;
+    padding: 10px;
+  }
+
+  .ak {
+    font-size: 1.5em;
+  }
+
+  #box6 {
+    position: static;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .ac-buttons {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* Segment 5 */
+  .segment5 {
+    position: static;
+    height: auto;
+    padding: 10px;
+  }
+
+  .akk {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+  }
+
+  #box7 {
+    position: static;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .ad-buttons {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+}
 
